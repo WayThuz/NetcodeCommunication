@@ -749,6 +749,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2935328845724995741, guid: ae495d75b5b99f74fb26799daa4c336b, type: 3}
+      propertyPath: ConnectionData.ServerListenAddress
+      value: 0.0.0.0
+      objectReference: {fileID: 0}
     - target: {fileID: 5246096583717881886, guid: ae495d75b5b99f74fb26799daa4c336b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -816,11 +820,11 @@ PrefabInstance:
     - target: {fileID: 6559241742116936986, guid: ae495d75b5b99f74fb26799daa4c336b, type: 3}
       propertyPath: 'netcodeConfigs.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: e86d444eee942ae4abebebaa85f20a37, type: 2}
+      objectReference: {fileID: 11400000, guid: a2d0984a11494bc448d70cea260e0138, type: 2}
     - target: {fileID: 6559241742116936986, guid: ae495d75b5b99f74fb26799daa4c336b, type: 3}
       propertyPath: 'netcodeConfigs.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: a2d0984a11494bc448d70cea260e0138, type: 2}
+      objectReference: {fileID: 11400000, guid: e86d444eee942ae4abebebaa85f20a37, type: 2}
     - target: {fileID: 6559241742116936986, guid: ae495d75b5b99f74fb26799daa4c336b, type: 3}
       propertyPath: 'netcodeConfigs.Array.data[2]'
       value: 
@@ -893,6 +897,10 @@ PrefabInstance:
       propertyPath: eventPreregister.onFirstConnect.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8731570835272991593, guid: ae495d75b5b99f74fb26799daa4c336b, type: 3}
+      propertyPath: 'NetworkConfig.Prefabs.NetworkPrefabsLists.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 4af738c52c5a596408de05e803ddbef4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
