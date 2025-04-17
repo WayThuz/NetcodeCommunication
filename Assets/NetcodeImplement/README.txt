@@ -1,4 +1,4 @@
-請先下載以下 package
+若報錯，請先下載以下 package
 com.unity.netcode.gameobjects: 2.2.0 or newer (Netcode for GameObjects)
 com.unity.transport: 2.4.0 or newer(Unity Transport)
 TextMeshPro, 並且匯入 essentials
